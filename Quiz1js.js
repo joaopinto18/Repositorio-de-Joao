@@ -19,3 +19,23 @@ function CambiarFotos(){
 
 window.onload=CambiarFotos;
 
+/**parte del form */
+
+const name_last = document.getElementById("name_last")
+const email = document.getElementById("email")
+const messaje = document.getElementById("messaje")
+const form = document.getElementById("form")
+
+const EmailRegex = /^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+)*$/;
+
+form.addEventListener("submit", e=>{
+    e.preventDefault()
+    if(!EmailRegex.test(email.value)){
+        alert("el correo introducido no es valido")
+    }else{
+        alert("la solicitud se envió con éxito")
+    }
+})
+
+
+

@@ -189,3 +189,96 @@
     font-weight: bold;
     font-size: 40px;
 }
+
+.wrapper .separator-line4{
+    width: 100%;
+    height: 1px;
+    background-color: rgb(128, 128, 128);
+}
+
+/*--------------------------------------------*/
+
+.wrapper .contactme{
+    margin-top: 50px;
+    width: 100%;
+    height: 700px;
+    margin-bottom: 50px;
+}
+
+.wrapper .contactme .contactme-tittle{
+    display: flex;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 40px;
+    width: 100%;
+    height: 50px;
+    margin-bottom: 50px;
+}
+
+.wrapper .contactme .contactme-tittle .contactme-tittle2{
+    color: rgb(128, 128, 128);
+    margin-left: 9px;
+}
+
+.wrapper .contactme .form-square{
+    display: flex;
+    justify-content: center;
+}
+
+.wrapper .contactme .form-square-background{
+    display: flex;
+    justify-content: center;
+    height: 410px;
+    width: 300px;
+    padding: 20px;
+    background-color: rgb(128, 128, 128);
+    margin-bottom: 50px;
+    border-radius: 10px;
+    box-shadow: 0 0 6px 0 rgba(225, 225, 225, 0.8);
+}
+
+.wrapper .contactme .form-square-background .form .form-tittle{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 40px;
+    color: black;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.wrapper .contactme .form-square-background .send-button{
+    height: 40px;
+    width: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px; 
+    font-weight: bold;
+    margin-top: 20px;
+    border-radius: 5px;
+    background-color: white;
+    border-color: black;
+    
+}
+
+.wrapper .contactme .rrss{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: space-around;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px; 
+    font-weight: bold;
+}
+
+input{
+    border-radius: 5px;                      
+    font-size: 15px;            
+    margin: 10px 10px 10px 5px; 
+    padding: 10px 10px 10px 5px;
+    display: block;             
+    border: none;
+}
+
+label{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
