@@ -1,0 +1,191 @@
+.wrapper{
+    padding-top: 20px;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+.wrapper .navbar{
+    display: flex;
+    justify-content: space-between;
+}
+
+.wrapper .navbar .tittle{
+    display: flex;
+}
+
+.wrapper .navbar .tittle .tittle1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 80px;
+    font-weight: bold;
+}
+
+.wrapper .navbar .tittle .tittle2{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 80px;
+    font-weight: bold;
+    color: rgb(156, 150, 150);
+}
+
+.wrapper .navbar .medu-header{
+    width: 100%;
+    margin-bottom: 50px;
+}
+
+.wrapper .navbar .medu-header .menu-header1 {
+    margin-top: 40px;
+    width: 100%;                    /*ocupa el 100% dentro del space-between que tiene con el tittle*/
+    display: flex;
+    justify-content: space-around;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+.wrapper .hero .carousel{
+    width: 100%;
+    height: 400px;
+    background-color: black;
+    position: relative;
+    top: 15px;
+    margin-bottom: 50px;
+}
+
+.wrapper .separator-line1{
+    width: 100%;
+    height: 1px;
+    background-color: rgb(128, 128, 128);
+}
+
+.wrapper .experience{
+    margin-top: 50px;
+    width: 100%;
+    height: 850px;
+    margin-bottom: 50px;
+}
+
+
+.wrapper .experience .experience-tittle{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 40px;
+    height: 50px;
+    width: 100%;
+    margin-bottom: 50px;
+}
+
+.wrapper .experience .experience-p1{
+    display: flex;
+    width: 100%;
+    height: 200px;
+    margin-bottom: 50px
+}
+
+.wrapper .experience .experience-p1 .textop1{
+    width: 50%;
+    height: 90%;
+    display: flex;
+    flex-direction: column;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    justify-content: space-between;
+}
+
+.wrapper .experience .experience-p2{
+    display: flex;
+    width: 100%;
+    height: 200px;
+    margin-bottom: 50px
+}
+
+.wrapper .experience .experience-p2 .textop2{
+    width: 50%;
+    height: 90%;
+    display: flex;
+    flex-direction: column;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    justify-content: space-between;
+}
+
+.wrapper .experience .experience-p3{
+    display: flex;
+    width: 100%;
+    height: 200px;
+}
+
+.wrapper .experience .experience-p3 .textop3{
+    width: 50%;
+    height: 90%;
+    display: flex;
+    flex-direction: column;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    justify-content: space-between;
+}
+
+.wrapper .separator-line2{
+    width: 100%;
+    height: 1px;
+    background-color: rgb(128, 128, 128);
+}
+
+.wrapper .aboutme {
+    margin-top: 50px;
+    width: 100%;
+    height: 300px;
+    margin-bottom: 50px;
+}
+
+.wrapper .aboutme .aboutme-tittle{
+    display: flex;
+    width: 100%;
+    height: 50px;
+    margin-bottom: 50px;
+}
+
+.wrapper .aboutme .aboutme-tittle .aboutme-tittle1 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 40px;
+}
+
+.wrapper .aboutme .aboutme-tittle .aboutme-tittle2 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 40px;
+    color: rgb(128, 128, 128);
+    margin-left: 9px;
+}
+
+.wrapper .aboutme .aboutme-info .list-info{
+    width: 100%;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    color: black;
+}
+
+.wrapper .separator-line3{
+    width: 100%;
+    height: 1px;
+    background-color: rgb(128, 128, 128);
+}
+
+
+.wrapper .skills{
+    margin-top: 50px;
+    width: 100%;
+    height: 500px;
+    margin-bottom: 50px;
+}
+
+.wrapper .skills .skills-tittle{
+    width: 100%;
+    height: 50px;
+    margin-bottom: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 40px;
+}
