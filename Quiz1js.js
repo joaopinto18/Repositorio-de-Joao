@@ -1,3 +1,5 @@
+/**Parte del slideshow */
+
 var i = 0;
 var images = [];
 var time = 2000;
@@ -19,7 +21,7 @@ function CambiarFotos(){
 
 window.onload=CambiarFotos;
 
-/**parte del form */
+/**parte de la valiacion del form */
 
 const name_last = document.getElementById("name_last")
 const email = document.getElementById("email")
@@ -36,6 +38,46 @@ form.addEventListener("submit", e=>{
         alert("la solicitud se envió con éxito")
     }
 })
+
+/**JSON de las Skills */
+
+var JoaoSkills={
+    JavaScript1: 'JavaScript: 20/100',
+    Html1: 'Html: 100/100',
+    Css1: 'Css: 70/100',
+}
+
+const PostContainer = document.getElementById('skills_box')
+
+/**Creando contenido html desde css */
+
+/**campo text */
+
+let cdiv = document.createElement('div');                  
+cdiv.classList.add('cdiv');
+/**let lista = document.createElement('ul');*/
+let JavaScript = document.createElement('h4'); 
+let Html = document.createElement('h4');
+let Css = document.createElement('h4');
+
+let JavaScript_text = document.createTextNode(`${JoaoSkills.JavaScript1}`);
+let Html_text = document.createTextNode(`${JoaoSkills.Html1}`);
+let Css_text = document.createTextNode(`${JoaoSkills.Css1}`);
+
+JavaScript.appendChild(JavaScript_text);
+Html.appendChild(Html_text);
+Css.appendChild(Css_text);
+
+/**lista.appendChild(JavaScript);
+lista.appendChild(Html);
+lista.appendChild(Css);
+cdiv.appendChild(lista);*/
+
+cdiv.appendChild(JavaScript);
+cdiv.appendChild(Html);
+cdiv.appendChild(Css);
+
+document.getElementById('skill-text').appendChild(cdiv);
 
 
 

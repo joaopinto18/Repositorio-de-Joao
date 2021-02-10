@@ -177,7 +177,7 @@
 .wrapper .skills{
     margin-top: 50px;
     width: 100%;
-    height: 500px;
+    height: 400px;
     margin-bottom: 50px;
 }
 
@@ -188,6 +188,69 @@
     font-family: Arial, Helvetica, sans-serif;
     font-weight: bold;
     font-size: 40px;
+}
+
+.wrapper .skills .skills-box{
+    width: 100%;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    
+}
+
+.wrapper .skills .skills-box .skills-box-square{
+    width: 80%;
+    height: 300px;
+    padding: 10px;
+    background-color: rgb(128, 128, 128);
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.wrapper .skills .skills-box .skills-box-square .skill-graphic{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.wrapper .skills .skills-box .skills-box-square .skill-graphic .graphic1{
+    width: 20%;
+    height: 60px;
+    margin-left: 0px;
+    border-bottom-right-radius: 5px;
+    border-top-right-radius: 5px;
+    background-color: black;
+}
+
+.wrapper .skills .skills-box .skills-box-square .skill-graphic .graphic2{
+    width: 90%;
+    height: 60px;
+    margin-left: 0px;
+    border-bottom-right-radius: 5px;
+    border-top-right-radius: 5px;
+    background-color: black;
+}
+
+.wrapper .skills .skills-box .skills-box-square .skill-text{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 35px;
+    color: black;
+    font-style: italic;
+}
+
+.wrapper .skills .skills-box .skills-box-square .skill-graphic .graphic3{
+    width: 70%;
+    height: 60px;
+    margin-left: 0px;
+    border-bottom-right-radius: 5px;
+    border-top-right-radius: 5px;
+    background-color: black;
 }
 
 .wrapper .separator-line4{
